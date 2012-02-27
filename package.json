@@ -1,0 +1,24 @@
+{
+	"name": "ziplock",
+	"description": "a basic cache library for node and browser",
+	"version": "0.0.1",
+	"homepage": "https://github.com/jgallen23/ziplock",
+	"author": "Greg Allen <@jgaui> (http://jga.me)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jgallen23/ziplock.git"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"chai": "*",
+    "clientside": "*",
+		"markx": "*"
+	},
+	"keywords": ["cache", "clientside", "memory"],
+  "clientside": {
+    "main": "./lib/browser/ziplock.js",
+    "modify": false
+  }
+}
